@@ -1,0 +1,6 @@
+{
+  "id": "publishSite",
+  "name": "publishSite",
+  "srcdoc": "./build/index.html",
+  "sidebar": true
+}
