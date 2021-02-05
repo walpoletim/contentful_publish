@@ -2,5 +2,21 @@
   "id": "publishSite",
   "name": "publishSite",
   "srcdoc": "./build/index.html",
-  "sidebar": true
+  "sidebar": true,
+  "parameters": {
+    "instance": [
+      {
+        "id": "contentTypeSlug",
+        "type": "Symbol",
+        "name": "URL slug for content type"
+      }
+    ],
+    "installation": [
+      {
+        "id": "webhookUrl",
+        "type": "Symbol",
+        "name": "The url of the webhook to rebuild your Gatsby Preview instance"
+      }
+    ]
+  }
 }
